@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "nome": "Desastres Naturais",
+    "descricao": "Apoio a situação de enchentes e deslizamentos",
+    "filtroVoluntarios": {
+      "graduacaoFormacao": {
+        "$in": [
+          "Médico",
+          "Enfermeiro",
+          "Biólogo",
+          "Fisioterapeuta",
+          "Farmacêutico",
+          "Veterinário"
+        ]
+      }
+    }
+  },
+  {
+    "id": 2,
+    "nome": "Gestão de Eventos",
+    "descricao": "Grandes eventos como Rio+20 e eventos como Círio de Nazaré, Copa do Mundo e Olimpíadas",
+    "filtroVoluntarios": {
+      "graduacaoFormacao": {
+        "$in": [
+          "Assistente Social",
+          "Psicólogo",
+          "Bacharel em Administração de Empresas",
+          "Turismo"
+        ]
+      }
+    }
+  },
+  {
+    "id": 3,
+    "nome": "Desassistência",
+    "descricao": "Apoio a reorganização da Rede de Atenção à Saúde, como migração de haitianos e assistência indígena",
+    "filtroVoluntarios": {
+      "graduacaoFormacao": {
+        "$in": [
+          "Enfermeiro",
+          "Nutricionista",
+          "Biólogo",
+          "Fisioterapeuta",
+          "Farmacêutico",
+          "Veterinário"
+        ]
+      }
+    }
+  },
+  {
+    "id": 4,
+    "nome": "Atuação em Tragédias",
+    "descricao": "Incêndios, desabamentos, acidentes aéreos e rodoviários",
+    "filtroVoluntarios": {
+      "graduacaoFormacao": {
+        "$in": ["Psicólogo", "Assistente Social", "Médico"]
+      }
+    }
+  }
+]
